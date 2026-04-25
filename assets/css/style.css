@@ -31,14 +31,14 @@ nav a {
 }
 
 .hero h1 {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 52px;
+  font-weight: 800;
+  color: #0b0b3b;
 }
 
 .hero p {
-  margin: 20px 0;
   color: #555;
+  margin: 20px 0;
 }
 
 /* ===== BUTTONS ===== */
