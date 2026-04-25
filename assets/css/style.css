@@ -46,12 +46,13 @@ nav a {
   background-color: #f9b233;
   border: none;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 12px 22px;
+  font-weight: 600;
 }
 
 .btn-outline-dark {
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 12px 22px;
 }
 
 /* ===== PHONE IMAGE ===== */
