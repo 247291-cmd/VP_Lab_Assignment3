@@ -50,3 +50,12 @@ nav a {
 .hero h1 {
   line-height: 1.2;
 }
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero img {
+    margin-top: 20px;
+  }
+}
