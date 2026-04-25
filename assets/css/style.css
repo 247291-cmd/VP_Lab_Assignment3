@@ -1,6 +1,8 @@
+/* ===== BASE STYLES ===== */
 body {
   font-family: Arial, sans-serif;
 }
+
 .navbar-section {
   background: #f8f9fb;
 }
@@ -19,20 +21,27 @@ nav a {
   border-radius: 20px;
   padding: 6px 16px;
 }
+
+/* ===== HERO SECTION ===== */
 .hero {
+  background: #f4f6fb;
   padding: 80px 0;
-  background: #f8f9fb;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero h1 {
   font-size: 48px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .hero p {
   margin: 20px 0;
   color: #555;
 }
+
+/* ===== BUTTONS ===== */
 .btn-warning {
   background-color: #f9b233;
   border: none;
@@ -44,12 +53,17 @@ nav a {
   border-radius: 30px;
   padding: 10px 20px;
 }
-.hero img {
-  max-width: 300px;
+
+/* ===== PHONE IMAGE ===== */
+.phone-img {
+  position: relative;
+  z-index: 2;
+  max-width: 260px;
+  display: block;
+  margin: auto;
 }
-.hero h1 {
-  line-height: 1.2;
-}
+
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .hero {
     text-align: center;
