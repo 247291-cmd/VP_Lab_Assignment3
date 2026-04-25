@@ -44,3 +44,6 @@ nav a {
   border-radius: 30px;
   padding: 10px 20px;
 }
+.hero img {
+  max-width: 300px;
+}
