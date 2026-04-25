@@ -1,3 +1,21 @@
 body {
   font-family: Arial, sans-serif;
 }
+.navbar-section {
+  background: #f8f9fb;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.sign-btn {
+  border-radius: 20px;
+  padding: 6px 16px;
+}
