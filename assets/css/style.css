@@ -54,6 +54,11 @@ nav a {
   border-radius: 30px;
   padding: 12px 22px;
 }
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
 
 /* ===== PHONE IMAGE ===== */
 .phone-img {
