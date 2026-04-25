@@ -19,3 +19,17 @@ nav a {
   border-radius: 20px;
   padding: 6px 16px;
 }
+.hero {
+  padding: 80px 0;
+  background: #f8f9fb;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #555;
+}
