@@ -73,7 +73,9 @@ nav a {
   border-radius: 20px;
   z-index: 1;
 }
-
+.hero-bg {
+  filter: brightness(0.9) ;
+}
 /* ===== PHONE IMAGE ===== */
 .phone-img {
   position: relative;
