@@ -33,3 +33,14 @@ nav a {
   margin: 20px 0;
   color: #555;
 }
+.btn-warning {
+  background-color: #f9b233;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.btn-outline-dark {
+  border-radius: 30px;
+  padding: 10px 20px;
+}
