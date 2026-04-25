@@ -75,7 +75,11 @@ nav a {
     text-align: center;
   }
 
-  .hero img {
+  .hero-bg {
+    display: none;
+  }
+
+  .phone-img {
     margin-top: 20px;
   }
 }
