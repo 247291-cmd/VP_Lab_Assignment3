@@ -693,7 +693,7 @@ nav a:hover {
 /* ================= STORY & HELP SECTION ================= */
 .story-help-section {
   background: #ffffff;
-  padding: 120px 0 140px 0;
+  padding: 60px 0 80px 0;
 }
 
 .story-help-section .container {
@@ -806,5 +806,93 @@ nav a:hover {
 
   .story-card {
     max-width: 100%;
+  }
+}
+
+
+/* ================= CTA SECTION ================= */
+.cta-section {
+  background: linear-gradient(135deg, #4335DE 0%, #5B4BFF 100%);
+  padding: 100px 0;
+}
+
+.cta-section .container {
+  max-width: 1440px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.cta-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.cta-subtext {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 48px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.cta-btn-primary {
+  background: #FDB441;
+  color: #02033B;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 36px;
+  border-radius: 50px;
+  border: none;
+  text-decoration: none;
+}
+
+.cta-btn-primary:hover {
+  background: #e6a030;
+  color: #02033B;
+}
+
+.cta-btn-outline {
+  background: transparent;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 36px;
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+  text-decoration: none;
+}
+
+.cta-btn-outline:hover {
+  background: #ffffff;
+  color: #02033B;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 60px 0;
+  }
+
+  .cta-section .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .cta-heading {
+    font-size: 28px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
   }
 }
