@@ -591,6 +591,11 @@ nav a:hover {
   height: 72px;
   object-fit: contain;
   margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover .feature-icon {
+  transform: scale(1.1);
 }
 
 .feature-title {
