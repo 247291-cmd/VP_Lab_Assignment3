@@ -422,12 +422,12 @@ nav a:hover {
 /* ================= ABOUT SECTION ================= */
 .about-section {
   background: #ffffff;
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .about-section .container {
   max-width: 1440px;
-  padding-left: 120px;
+  padding-left: 180px;
   padding-right: 120px;
 }
 
@@ -437,20 +437,21 @@ nav a:hover {
 
 .about-heading {
   font-family: 'Inter', sans-serif;
-  font-size: 42px;
+  font-size: 34px;
   font-weight: 800;
-  line-height: 56px;
+  line-height: 42px;
   color: #02033B;
   margin-bottom: 24px;
+  max-width: 480px;
 }
 
 .about-text {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
-  line-height: 28px;
-  color: #555;
+  line-height: 26px;
+  color: black;
   margin-bottom: 40px;
-  max-width: 460px;
+  max-width: 380px;
 }
 
 .about-buttons {
@@ -501,7 +502,7 @@ nav a:hover {
 .about-img-wrapper {
   position: relative;
   width: 100%;
-  max-width: 480px;
+  max-width: 430px;
   margin-bottom: 20px;
 }
 
@@ -568,31 +569,32 @@ nav a:hover {
 /* ================= FEATURES SECTION ================= */
 .features-section {
   background: #F3F8FF;
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .features-section .container {
   max-width: 1440px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 270px;
+  padding-right: 270px;
 }
 
 .features-heading {
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 800;
-  line-height: 54px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
   color: #02033B;
   text-align: center;
   margin-bottom: 60px;
-  max-width: 700px;
+  max-width: 650px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .features-card {
   background: #ffffff;
-  border-radius: 24px;
+  border-radius: 36px;
   padding: 60px 60px 50px 60px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
 }
@@ -715,8 +717,8 @@ nav a:hover {
 
 .story-help-section .container {
   max-width: 1440px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /* Story Card */
@@ -724,7 +726,7 @@ nav a:hover {
   background: linear-gradient(135deg, #F7C95F 0%, #FDB235 100%);
   border-radius: 48px;
   padding: 60px;
-  width: 460px;
+  width: 400px;
   height: 296px;
   display: flex;
   flex-direction: column;
@@ -830,7 +832,7 @@ nav a:hover {
 /* ================= CTA SECTION ================= */
 .cta-section {
   background: linear-gradient(135deg, #4335DE 0%, #5B4BFF 100%);
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 .cta-section .container {
@@ -841,16 +843,16 @@ nav a:hover {
 
 .cta-heading {
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 800;
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .cta-subtext {
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  color: white;
   margin-bottom: 48px;
 }
 
@@ -918,13 +920,13 @@ nav a:hover {
 /* ================= LATEST INSIGHTS SECTION ================= */
 .insights-section {
   background: #F3F8FF;
-  padding: 100px 0;
+  padding: 90px 0;
 }
 
 .insights-section .container {
   max-width: 1440px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .insights-heading {
@@ -1040,8 +1042,8 @@ nav a:hover {
 
 .footer .container {
   max-width: 1440px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .footer-tagline {
@@ -1085,7 +1087,7 @@ nav a:hover {
 .footer-links a {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
-  color: rgba(255,255,255,0.7);
+  color: white;
   text-decoration: underline;
 }
 
@@ -1096,7 +1098,7 @@ nav a:hover {
 .footer-copy {
   font-family: 'Inter', sans-serif;
   font-size: 13px;
-  color: rgba(255,255,255,0.5);
+  color: white;
   line-height: 22px;
   margin-bottom: 8px;
 }
@@ -1104,11 +1106,11 @@ nav a:hover {
 .footer-dev {
   font-family: 'Inter', sans-serif;
   font-size: 13px;
-  color: rgba(255,255,255,0.5);
+  color: white;
 }
 
 .footer-dev a {
-  color: rgba(255,255,255,0.7);
+  color: white;
   text-decoration: underline;
 }
 
@@ -1119,16 +1121,18 @@ nav a:hover {
   font-weight: 800;
   color: #ffffff;
   margin-bottom: 12px;
+  padding-left: 100px;
 }
 
 .footer-divider {
   border-color: rgba(255,255,255,0.2);
-  margin-bottom: 24px;
+  margin-bottom: 48px;
+  margin-left: 100px;
 }
 
 .footer-nav {
   list-style: none;
-  padding: 0;
+  padding: 0 0 0 100px;
   margin: 0;
 }
 
