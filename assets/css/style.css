@@ -1,4 +1,13 @@
 /* ================= BASE ================= */
+html {
+  overflow-x: hidden;
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -91,18 +100,21 @@ nav a:hover {
 .hero {
   background: #F3F8FF;
   padding-top: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
 }
 
 .hero-left-col {
-  padding-left: 120px;
-  padding-right: 40px;
+  padding-left: 100px;
+  padding-right: 0px;
 }
 
 /* HEADING (FIGMA) */
 .hero-heading {
   left-margin: 20px;
   font-family: 'Inter', sans-serif;
-  font-size: 55px;
+  font-size: 52px;
   font-weight: 800;
   line-height: 75px;
   letter-spacing: -1.2px;
@@ -122,7 +134,7 @@ nav a:hover {
 
 /* BUTTONS */
 .hero-buttons {
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 30px;
   display: flex;
   gap: 20px;
@@ -147,8 +159,8 @@ nav a:hover {
 /* CARD */
 .hero-card {
   position: relative;
-  width: 100%;
-  height: 600px;
+  width: 95%;
+  height: 500px;
   border-left: 20px solid #4335DE;
   border-top: 20px solid #4335DE;
   overflow: hidden;
@@ -167,7 +179,8 @@ nav a:hover {
   top: 50%;
   left: 22%;
   transform: translate(-50%, -50%);
-  width: 240px;
+  width: 200px;
+  height: 400px;
 }
 
 /* RESPONSIVE */
