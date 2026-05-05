@@ -1026,3 +1026,71 @@ nav a:hover {
   padding-left: 120px;
   padding-right: 120px;
 }
+
+.footer-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.social-icon {
+  width: 44px;
+  height: 44px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  text-decoration: underline;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-copy {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.footer-dev {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+}
+
+.footer-dev a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: underline;
+}
