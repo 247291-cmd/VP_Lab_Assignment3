@@ -1013,3 +1013,16 @@ nav a:hover {
     font-size: 28px;
   }
 }
+
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #02033B;
+  padding: 80px 0 40px 0;
+}
+
+.footer .container {
+  max-width: 1440px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
